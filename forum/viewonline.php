@@ -11,7 +11,7 @@
 <meta name="copyright" content="2002-2006 phpBB Group" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<title>Ingrown Toenails Forum &bull; Index page</title>
+<meta http-equiv="refresh" content="60;url=http://www.dayah.com/toes/forum/viewonline.php?sg=0&amp;sk=b&amp;sd=d&amp;start=0" /><title>Ingrown Toenails Forum &bull; Who is online</title>
 
 <!--
 	phpBB style name: prosilver
@@ -27,7 +27,7 @@
 <script type="text/javascript">
 // <![CDATA[
 	var jump_page = 'Enter the page number you wish to go to.:';
-	var on_page = '';
+	var on_page = '1';
 	var per_page = '';
 	var base_url = '';
 	var style_cookie = 'phpBBstyle';
@@ -76,7 +76,7 @@
 
 </head>
 
-<body id="phpbb" class="section-index ltr">
+<body id="phpbb" class="section-viewonline ltr">
 
 <div id="wrap">
 	<a id="top" name="top" accesskey="t"></a>
@@ -120,52 +120,56 @@
 	<div id="page-body">
 		
 		 
-<p class="right rightside">Last visit was: Mon Oct 15, 2007 4:40 am</p>
-<p>It is currently Mon Oct 15, 2007 4:40 am</p>		<div class="forabg">
-			<div class="inner"><span class="corners-top"><span></span></span>
-			<ul class="topiclist">
-				<li class="header">
-					<dl class="icon">
-						<dt><a href="./viewforum.php?f=1">My first Category</a></dt>
-						<dd class="topics">Topics</dd>
-						<dd class="posts">Posts</dd>
-						<dd class="lastpost"><span>Last post</span></dd>
-					</dl>
-				</li>
-			</ul>
-			<ul class="topiclist forums">
-			<li class="row">
-			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/forum_read.gif); background-repeat: no-repeat;">
-				<dt>
-										<a href="./viewforum.php?f=2" class="forumtitle">Stories</a><br />
-					Share your ingrown toenail story.									</dt>
-									<dd class="topics">0 <dfn>Topics</dfn></dd>
-					<dd class="posts">0 <dfn>Posts</dfn></dd>
-					<dd class="lastpost"><span>
-						No posts</span>
-					</dd>
-							</dl>
-		</li>
-			<li class="row">
-			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/forum_read.gif); background-repeat: no-repeat;">
-				<dt>
-										<a href="./viewforum.php?f=3" class="forumtitle">Fears</a><br />
-					Worried you might have ingrown nails? Describe your concerns and talk to someone who has gone through the same.									</dt>
-									<dd class="topics">0 <dfn>Topics</dfn></dd>
-					<dd class="posts">0 <dfn>Posts</dfn></dd>
-					<dd class="lastpost"><span>
-						No posts</span>
-					</dd>
-							</dl>
-		</li>
-				</ul>
+<h2>There is 1 registered user and 0 hidden users online</h2>
+<p>There are 0 guest users online &bull; <a href="./viewonline.php?sg=1">Display guests</a></p>
 
-			<span class="corners-bottom"><span></span></span></div>
-		</div>
-		<h3><a href="./viewonline.php">Who is online</a></h3>
-	<p>In total there is <strong>1</strong> user online :: 1 registered, 0 hidden and 0 guests (This data is based on users active over the past 5 minutes)<br />Most users ever online was <strong>2</strong> on Tue Jul 10, 2007 9:46 am<br /> <br />Registered users: <span style="color:#9E8DA7"><strong>Alexa [Bot]</strong></span>	<br /><em>Legend: <a style="color:#AA0000" href="./memberlist.php?mode=group&amp;g=5">Administrators</a>, <a style="color:#00AA00" href="./memberlist.php?mode=group&amp;g=4">Global moderators</a></em></p>
-	<h3>Statistics</h3>
-	<p>Total posts <strong>0</strong> &bull; Total topics <strong>0</strong> &bull; Total members <strong>5</strong> &bull; Our newest member <strong><a href="./memberlist.php?mode=viewprofile&amp;u=56">Kirsti1181</a></strong></p>
+<ul class="linklist">
+	<li class="rightside pagination">Page <strong>1</strong> of <strong>1</strong></li>
+</ul>
+
+<div class="forumbg">
+	<div class="inner"><span class="corners-top"><span></span></span>
+	
+	<table class="table1" cellspacing="1">
+
+			<thead>
+		<tr>
+			<th class="name"><a href="./viewonline.php?sk=a&amp;sd=a&amp;sg=0">Username</a></th>
+			<th class="info"><a href="./viewonline.php?sk=c&amp;sd=a&amp;sg=0">Forum location</a></th>
+			<th class="active"><a href="./viewonline.php?sk=b&amp;sd=a&amp;sg=0">Last updated</a></th>
+		</tr>
+		</thead>
+		<tbody>
+				<tr class="bg2">
+			<td><b style="color:#9E8DA7">Alexa [Bot]</b></td>
+			<td class="info"><a href="./viewonline.php">Viewing who is online</a></td>
+			<td class="active">Mon Oct 15, 2007 1:18 pm</td>
+		</tr>
+			</tbody>
+	</table>
+	
+	<span class="corners-bottom"><span></span></span></div>
+</div>
+
+<p><em>Legend: <a style="color:#AA0000" href="./memberlist.php?mode=group&amp;g=5">Administrators</a>, <a style="color:#00AA00" href="./memberlist.php?mode=group&amp;g=4">Global moderators</a></em></p>
+<ul class="linklist">
+	<li class="rightside pagination">Page <strong>1</strong> of <strong>1</strong></li>
+</ul>
+
+	<form method="post" id="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+			<fieldset class="jumpbox">
+				<label for="f" accesskey="j">Jump to: </label>
+			<select name="f" id="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+							<option value="-1">Select a forum</option>
+			<option value="-1">------------------</option>				<option value="1">My first Category</option>
+							<option value="2">&nbsp; &nbsp;Stories</option>
+							<option value="3">&nbsp; &nbsp;Fears</option>
+						</select>
+			<input type="submit" value="Go" class="button2" />
+		</fieldset>
+	</form>
+
 </div>
 
 <div id="page-footer">

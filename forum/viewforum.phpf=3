@@ -11,7 +11,7 @@
 <meta name="copyright" content="2002-2006 phpBB Group" />
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<title>Ingrown Toenails Forum &bull; Index page</title>
+<title>Ingrown Toenails Forum &bull; View forum - Fears</title>
 
 <!--
 	phpBB style name: prosilver
@@ -27,7 +27,7 @@
 <script type="text/javascript">
 // <![CDATA[
 	var jump_page = 'Enter the page number you wish to go to.:';
-	var on_page = '';
+	var on_page = '1';
 	var per_page = '';
 	var base_url = '';
 	var style_cookie = 'phpBBstyle';
@@ -76,7 +76,7 @@
 
 </head>
 
-<body id="phpbb" class="section-index ltr">
+<body id="phpbb" class="section-viewforum ltr">
 
 <div id="wrap">
 	<a id="top" name="top" accesskey="t"></a>
@@ -99,7 +99,7 @@
 			<div class="inner"><span class="corners-top"><span></span></span>
 
 			<ul class="linklist navlinks">
-				<li><a class="icon-home" href="./index.php" accesskey="h">Board index</a> </li>
+				<li><a class="icon-home" href="./index.php" accesskey="h">Board index</a>  <strong>&#8249;</strong> <a href="./viewforum.php?f=1">My first Category</a> <strong>&#8249;</strong> <a href="./viewforum.php?f=3">Fears</a></li>
 
 				<li class="rightside"><a href="#" onclick="fontsizeup(); return false;" class="fontsize" title="Change font size">Change font size</a></li>
 
@@ -119,53 +119,48 @@
 	<a name="start_here"></a>
 	<div id="page-body">
 		
-		 
-<p class="right rightside">Last visit was: Mon Oct 15, 2007 4:40 am</p>
-<p>It is currently Mon Oct 15, 2007 4:40 am</p>		<div class="forabg">
-			<div class="inner"><span class="corners-top"><span></span></span>
-			<ul class="topiclist">
-				<li class="header">
-					<dl class="icon">
-						<dt><a href="./viewforum.php?f=1">My first Category</a></dt>
-						<dd class="topics">Topics</dd>
-						<dd class="posts">Posts</dd>
-						<dd class="lastpost"><span>Last post</span></dd>
-					</dl>
-				</li>
-			</ul>
-			<ul class="topiclist forums">
-			<li class="row">
-			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/forum_read.gif); background-repeat: no-repeat;">
-				<dt>
-										<a href="./viewforum.php?f=2" class="forumtitle">Stories</a><br />
-					Share your ingrown toenail story.									</dt>
-									<dd class="topics">0 <dfn>Topics</dfn></dd>
-					<dd class="posts">0 <dfn>Posts</dfn></dd>
-					<dd class="lastpost"><span>
-						No posts</span>
-					</dd>
-							</dl>
-		</li>
-			<li class="row">
-			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/forum_read.gif); background-repeat: no-repeat;">
-				<dt>
-										<a href="./viewforum.php?f=3" class="forumtitle">Fears</a><br />
-					Worried you might have ingrown nails? Describe your concerns and talk to someone who has gone through the same.									</dt>
-									<dd class="topics">0 <dfn>Topics</dfn></dd>
-					<dd class="posts">0 <dfn>Posts</dfn></dd>
-					<dd class="lastpost"><span>
-						No posts</span>
-					</dd>
-							</dl>
-		</li>
-				</ul>
+		 <h2><a href="./viewforum.php?f=3&amp;st=0&amp;sk=t&amp;sd=d&amp;start=0">Fears</a></h2>
 
-			<span class="corners-bottom"><span></span></span></div>
-		</div>
-		<h3><a href="./viewonline.php">Who is online</a></h3>
-	<p>In total there is <strong>1</strong> user online :: 1 registered, 0 hidden and 0 guests (This data is based on users active over the past 5 minutes)<br />Most users ever online was <strong>2</strong> on Tue Jul 10, 2007 9:46 am<br /> <br />Registered users: <span style="color:#9E8DA7"><strong>Alexa [Bot]</strong></span>	<br /><em>Legend: <a style="color:#AA0000" href="./memberlist.php?mode=group&amp;g=5">Administrators</a>, <a style="color:#00AA00" href="./memberlist.php?mode=group&amp;g=4">Global moderators</a></em></p>
-	<h3>Statistics</h3>
-	<p>Total posts <strong>0</strong> &bull; Total topics <strong>0</strong> &bull; Total members <strong>5</strong> &bull; Our newest member <strong><a href="./memberlist.php?mode=viewprofile&amp;u=56">Kirsti1181</a></strong></p>
+<p>
+	<!-- NOTE: remove the style="display: none" when you wnat to have the forum description on the forum body --><span style="display: none">Worried you might have ingrown nails? Describe your concerns and talk to someone who has gone through the same.<br /></span></p>
+	<div class="topic-actions" >
+
+			<div class="pagination">
+			0 topics &bull; Page <strong>1</strong> of <strong>1</strong>		</div>
+	
+	</div>
+	<div class="panel">
+		<div class="inner"><span class="corners-top"><span></span></span>
+		<strong>There are no topics or posts in this forum.</strong>
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+		<form method="post" action="">
+		<fieldset class="display-options">
+						<label>Display topics from previous: <select name="st"><option value="0" selected="selected">All Topics</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label> 
+			<label>Sort by <select name="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="r">Replies</option><option value="s">Subject</option><option value="v">Views</option></select></label> 
+			<label><select name="sd"><option value="a">Ascending</option><option value="d" selected="selected">Descending</option></select> <input type="submit" name="sort" value="Go" class="button2" /></label>
+		</fieldset>
+	</form>
+	<hr />
+	<form method="post" id="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+			<p><a href="./index.php" class="left-box left" accesskey="r">Return to Board index</a></p>
+			<fieldset class="jumpbox">
+				<label for="f" accesskey="j">Jump to: </label>
+			<select name="f" id="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+							<option value="-1">Select a forum</option>
+			<option value="-1">------------------</option>				<option value="1">My first Category</option>
+							<option value="2">&nbsp; &nbsp;Stories</option>
+							<option value="3" selected="selected">&nbsp; &nbsp;Fears</option>
+						</select>
+			<input type="submit" value="Go" class="button2" />
+		</fieldset>
+	</form>
+
+	<h3><a href="./viewonline.php">Who is online</a></h3>
+	<p>Users browsing this forum: <span style="color:#9E8DA7"><strong>Alexa [Bot]</strong></span> and 0 guests</p>
+	<h3>Forum permissions</h3>
+	<p>You <strong>cannot</strong> post new topics in this forum<br />You <strong>cannot</strong> reply to topics in this forum<br />You <strong>cannot</strong> edit your posts in this forum<br />You <strong>cannot</strong> delete your posts in this forum<br />You <strong>cannot</strong> post attachments in this forum<br /></p>
 </div>
 
 <div id="page-footer">

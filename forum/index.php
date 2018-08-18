@@ -68,7 +68,7 @@
 <script type="text/javascript" src="./styles/prosilver/template/forum_fn.js"></script>
 
 	<link href="./styles/prosilver/theme/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
-	<link href="./style.php?sid=47ad3fb5862cebfbcd22893a5835519e&amp;id=1&amp;lang=en" rel="stylesheet" type="text/css" media="screen, projection" />
+	<link href="./style.php?sid=4a6d1f7016a47ecf9b2805077f954535&amp;id=1&amp;lang=en" rel="stylesheet" type="text/css" media="screen, projection" />
 
 	<link href="./styles/prosilver/theme/normal.css" rel="stylesheet" type="text/css" title="A" />
 	<link href="./styles/prosilver/theme/medium.css" rel="alternate stylesheet" type="text/css" title="A+" />
@@ -120,8 +120,8 @@
 	<div id="page-body">
 		
 		 
-<p class="right rightside">Last visit was: Mon Oct 15, 2007 4:40 am</p>
-<p>It is currently Mon Oct 15, 2007 4:40 am</p>		<div class="forabg">
+<p class="right rightside">Last visit was: Mon Nov 05, 2007 9:30 pm</p>
+<p>It is currently Mon Nov 05, 2007 9:30 pm</p>		<div class="forabg">
 			<div class="inner"><span class="corners-top"><span></span></span>
 			<ul class="topiclist">
 				<li class="header">
